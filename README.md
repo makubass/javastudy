@@ -11,5 +11,7 @@ n倍して1を足すと、1以上n+1未満の乱数乱数になる。
 int r = (int)(Math.random() * n + 1);
 ```
 
-
+```ruby:qiita.rb
+puts 'The best way to log and share programmers knowledge.'
+```
     
