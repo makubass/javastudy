@@ -10,6 +10,14 @@ n倍して1を足すと、1以上n+1未満の乱数乱数になる。
 ```java:random
 int r = (int)(Math.random() * n + 1);
 ```
-
-
+  
+* nullか空文字""かをチェックするisEmptyメソッド
+```
+public static boolean isEmpty(String str){
+	if(str==null || str.equals("")){
+		return true;
+	}else
+		return false;
+	}
+'''
     
