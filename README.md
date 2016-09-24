@@ -21,12 +21,12 @@ public static boolean isEmpty(String str){
 	}
 ```
 
-* コマンドでのコンパイルと実行で困ったこと。 
+* コマンドでのコンパイルと実行で困ったこと。  
 ※「\」は「￥（小文字の円マーク）」と読み替えて。  
 
 プロジェクト「chap17」、パッケージ「sample」と作った。  
 ディレクトリはこうなる　c:\myspace\chap17\sample  
-ソースを書いて保存するとこうなる。
+クラス名をRunTestとしてソースを書いて保存するとこうなる。
 
 ``` 
 C:\myspace\chap17\sample
@@ -38,9 +38,27 @@ C:\myspace\chap17\sample
 C:\myspace\chap17>Javac sample/Runtest.java
 ```
 
-クラスファイルが生成される。  
+するとクラスファイルが生成される。  
 ``` 
 C:\myspace\chap17\sample
 	|---RunTest.java
 	|---RunTest.class
 ```
+
+で、確認のためにsampleディレクトリに移動したのがハマりの始まり。  
+```
+C:\myspace\chap17>cd sample
+C:\myspace\chap17\sample>dir
+		RunTest.java
+		RunTest.class
+```
+
+そのまま実行すると・・・  
+C:\myspace\chap17\sample>Java RunTest  
+「エラー：メインクラスが見つからなかったかロードできませんでした」  
+
+dirで確認したのはいいのだが、そのままsampleディレクトリで実行してしまった。   java実行するためにはプロジェクトのフォルダをカレントディレクトリにし、
+パッケージを指定したかたちで実行する必要があった。  
+
+```
+C:\myspace\chap17
