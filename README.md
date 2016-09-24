@@ -20,4 +20,6 @@ public static boolean isEmpty(String str){
 		return false;
 	}
 '''
-    
+
+* コマンドでのコンパイルと実行で困ったこと。
+
