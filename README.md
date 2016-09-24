@@ -19,7 +19,8 @@ public static boolean isEmpty(String str){
 	}else
 		return false;
 	}
-'''
+```
 
-* コマンドでのコンパイルと実行で困ったこと。
-
+* コマンドでのコンパイルと実行で困ったこと。  
+*「\」は「￥（小文字の円マーク）」と読み替えて。
+c:\
