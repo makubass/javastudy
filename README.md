@@ -21,13 +21,26 @@ public static boolean isEmpty(String str){
 	}
 ```
 
-* コマンドでのコンパイルと実行で困ったこと。  
+* コマンドでのコンパイルと実行で困ったこと。 
 ※「\」は「￥（小文字の円マーク）」と読み替えて。  
+
 プロジェクト「chap17」、パッケージ「sample」と作った。  
-ディレクトリは以下の構成になる。  
-` c:\myspace\chap17\sample  
-ソースを書いて保存するとこうなる。  
+ディレクトリはこうなる　c:\myspace\chap17\sample  
+ソースを書いて保存するとこうなる。
+
 ``` 
 C:\myspace\chap17\sample
-	---RunTest.java
+	|---RunTest.java
+```
+
+コンパイルする。
+```
+C:\myspace\chap17>Javac sample/Runtest.java
+```
+
+クラスファイルが生成される。  
+``` 
+C:\myspace\chap17\sample
+	|---RunTest.java
+	|---RunTest.class
 ```
