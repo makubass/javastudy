@@ -33,7 +33,7 @@ C:\myspace\chap17\sample
 	|---RunTest.java
 ```
 
-コンパイルする。
+コンパイルする。  
 `C:\myspace\chap17>Javac sample/Runtest.java`
 
 するとクラスファイルが生成される。  
@@ -52,7 +52,7 @@ C:\myspace\chap17\sample>dir
 ```
 
 そのまま実行すると・・・  
-`C:\myspace\chap17\sample>Java RunTest` 
+`C:\myspace\chap17\sample>Java RunTest`   
 「エラー：メインクラスが見つからなかったかロードできませんでした」  
 
 dirで確認したのはいいのだが、そのままsampleディレクトリで実行してしまった。  
