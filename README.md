@@ -34,9 +34,7 @@ C:\myspace\chap17\sample
 ```
 
 コンパイルする。
-```
-C:\myspace\chap17>Javac sample/Runtest.java
-```
+`C:\myspace\chap17>Javac sample/Runtest.java`
 
 するとクラスファイルが生成される。  
 ``` 
@@ -54,14 +52,12 @@ C:\myspace\chap17\sample>dir
 ```
 
 そのまま実行すると・・・  
-`C:\myspace\chap17\sample>Java RunTest  
+`C:\myspace\chap17\sample>Java RunTest` 
 「エラー：メインクラスが見つからなかったかロードできませんでした」  
 
 dirで確認したのはいいのだが、そのままsampleディレクトリで実行してしまった。  
 java実行するためにはプロジェクトのフォルダをカレントディレクトリにし、  
 パッケージを指定したかたちで実行する必要があった。  
-それと「sample\RunTest」ではなく「sample/RunTest」である点にも注意。
+それと「sample*\*RunTest」ではなく「sample*/*RunTest」である点にも注意。
 
-```
-C:\myspace\chap17>Java sample/RunTest
-```
+`C:\myspace\chap17>Java sample/RunTest`
