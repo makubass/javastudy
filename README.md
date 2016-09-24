@@ -58,6 +58,6 @@ C:\myspace\chap17\sample>dir
 dirで確認したのはいいのだが、そのままsampleディレクトリで実行してしまった。  
 java実行するためにはプロジェクトのフォルダをカレントディレクトリにし、  
 パッケージを指定したかたちで実行する必要があった。  
-それと「sample*\*RunTest」ではなく「sample*/*RunTest」である点にも注意。
+それと「sample** \ **RunTest」ではなく「sample* / *RunTest」である点にも注意。
 
 `C:\myspace\chap17>Java sample/RunTest`
